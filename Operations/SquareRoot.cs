@@ -6,7 +6,7 @@ namespace Operations
 {
     public class SquareRoot
     {
-        public static dynamic Sqrt(dynamic a)
+        public static double Sqrt(double a)
         {
             return Math.Pow(a, 0.5);
         }
