@@ -26,5 +26,10 @@ namespace Operations.Tests
         {
             Assert.AreEqual(2.375, Division.Divide(c, d));
         }
+        [TestMethod()]
+        public void DivideByZeroTest()
+        {
+            Assert.ThrowsException<DivideByZeroException>(() => Division.Divide(a, e));
+        }
     }
 }
