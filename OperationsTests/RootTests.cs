@@ -7,7 +7,7 @@ using System.Text;
 namespace Operations.Tests
 {
     [TestClass()]
-    public class SquareRootTests
+    public class RootTests
     {
         private readonly dynamic a = 100;
         private readonly dynamic b = 10.1;
@@ -15,12 +15,12 @@ namespace Operations.Tests
         [TestMethod()]
         public void SqrtTest()
         {
-            Assert.AreEqual(10, SquareRoot.Sqrt(a));
+            Assert.AreEqual(10, Root.Sqrt(a));
         }
         [TestMethod()]
         public void SqrtDoubleTest()
         {
-            Assert.AreEqual(3.1780497164141406804582045589355, SquareRoot.Sqrt(b));
+            Assert.AreEqual(3.1780497164141406804582045589355, Root.Sqrt(b));
         }
     }
 }

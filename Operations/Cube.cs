@@ -6,13 +6,13 @@ namespace Operations
 {
     public class Cube
     {
-        public static int Cubed(int a)
+        public static dynamic Cubed(dynamic a)
         {
             return a * a * a;
         }
-        public static double Cubed(double a)
+        /*public static double Cubed(double a)
         {
             return a * a * a;
-        }
+        }*/
     }
 }

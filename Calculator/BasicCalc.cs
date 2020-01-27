@@ -1,10 +1,25 @@
 ﻿using System;
 using Operations;
+using Sum;
+using Differences;
+using Quotient;
+using Times;
+using SquareRoot;
+using Cubing;
+using Square;
 
 namespace Calculator
 {
-    public class BasicCalc
+    public class BasicCalc : IAdd, IDifferences, IDivides, IMultiplying, ISquared, ICubing
     {
+        readonly Adding add = new Adding();
+        readonly Subtracting subtract = new Subtracting();
+        readonly Dividing divide = new Dividing();
+        readonly Multiplying multiply = new Multiplying();
+        readonly SquareRoots squareRoots = new SquareRoots();
+        readonly Cubes cubes = new Cubes();
+        readonly Squares square = new Squares();
+
         public dynamic solution;
         public dynamic Add(dynamic a, dynamic b)
         {
@@ -38,12 +53,12 @@ namespace Calculator
         }
         public dynamic Squared(dynamic a)
         {
-            solution = Square.Squared(a);
+            solution = Operations.Square.Squared(a);
             return solution;
         }
         public double Sqrt(double a)
         {
-            solution = SquareRoot.Sqrt(a);
+            solution = Root.Sqrt(a);
             return solution;
         }
         public dynamic Difference(dynamic a, dynamic b)
