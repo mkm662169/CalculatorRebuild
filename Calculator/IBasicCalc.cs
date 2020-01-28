@@ -8,9 +8,9 @@ namespace Calculator
     {
         public dynamic Add(dynamic a, dynamic b);
         public dynamic Add(dynamic values);
-        public dynamic Cubing(dynamic a);
+        public dynamic Cubed(dynamic a);
         public dynamic Difference(dynamic a, dynamic b);
-        public dynamic Difference(dynamic values);
+        public dynamic Difference(dynamic a);
         public dynamic Times(dynamic a, dynamic b);
         public dynamic Times(dynamic values);
         public dynamic Divide(dynamic a, dynamic b);

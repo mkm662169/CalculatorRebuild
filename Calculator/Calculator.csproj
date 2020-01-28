@@ -10,6 +10,7 @@
     <ProjectReference Include="..\Deviation\Deviation.csproj" />
     <ProjectReference Include="..\Differences\Differences.csproj" />
     <ProjectReference Include="..\Operations\Operations.csproj" />
+    <ProjectReference Include="..\PersonsScore\PersonsScore.csproj" />
     <ProjectReference Include="..\Quotient\Quotient.csproj" />
     <ProjectReference Include="..\SquareRoot\SquareRoot.csproj" />
     <ProjectReference Include="..\Square\Square.csproj" />

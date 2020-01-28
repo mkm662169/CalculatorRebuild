@@ -5,14 +5,16 @@ using StatOps;
 using Average;
 using Deviation;
 using Variances;
+using PersonsScore;
 
 namespace Calculator
 {
-    public class StatsCalc : IAverage, IDeviating, IVariances
+    public class StatsCalc : IAverage, IDeviating, IVariances, IZScores
     {
         readonly Averaging mean = new Averaging();
         readonly Varying variance = new Varying();
         readonly Deviating standDev = new Deviating();
+        readonly ZScores zscore = new ZScores();
 
         public dynamic solution;
 
@@ -31,6 +33,12 @@ namespace Calculator
         public dynamic StandDev(dynamic values)
         {
             solution = StatStandardDeviation.StandDev(values);
+            return solution;
+        }
+
+        public dynamic ZScore(dynamic score, dynamic values)
+        {
+            solution = StatZScore.ZScore(score, values);
             return solution;
         }
 

@@ -35,5 +35,14 @@ namespace Calculator.Tests
             var stdv = statsCalc.StandDev(values);
             Assert.AreEqual(1.41421, Helpers.Rounding.RoundToFive(stdv));
         }
+
+        [TestMethod()]
+        public void ZScoreTest()
+        {
+            int[] values = { 1, 2, 3, 4, 5 };
+            int score = 4;
+            var zScore = statsCalc.ZScore(score, values);
+            Assert.AreEqual(0.70711, Helpers.Rounding.RoundToFive(zScore));
+        }
     }
 }

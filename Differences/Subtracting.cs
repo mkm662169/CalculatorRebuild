@@ -11,5 +11,11 @@ namespace Differences
             solution = Subtraction.Difference(a, b);
             return solution;
         }
+
+        public dynamic Difference(dynamic a)
+        {
+            solution = Subtraction.Difference(a);
+            return solution;
+        }
     }
 }

@@ -6,9 +6,13 @@ namespace Operations
 {
     public class Root
     {
-        public static dynamic Sqrt(dynamic a)
+        public static double Sqrt(int a)
         {
-            return Math.Pow(a, 0.5);
+            return Math.Pow(a, 1.0/2.0);
+        }
+        public static double Sqrt(double a)
+        {
+            return Math.Pow(a, 1.0 / 2.0);
         }
     }
 }

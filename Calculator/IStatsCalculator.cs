@@ -12,5 +12,6 @@ namespace Calculator
 
         public dynamic StandDev(dynamic values);
 
+        public dynamic ZScore(dynamic score, dynamic values);
     }
 }

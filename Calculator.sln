@@ -39,6 +39,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Variances", "Variances\Vari
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Deviation", "Deviation\Deviation.csproj", "{2B820927-6807-4F26-A29A-A395D9A419D2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PersonsScore", "PersonsScore\PersonsScore.csproj", "{BAC1576F-C00C-4E0D-A772-F2662388770F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{2B820927-6807-4F26-A29A-A395D9A419D2}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2B820927-6807-4F26-A29A-A395D9A419D2}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2B820927-6807-4F26-A29A-A395D9A419D2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BAC1576F-C00C-4E0D-A772-F2662388770F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BAC1576F-C00C-4E0D-A772-F2662388770F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BAC1576F-C00C-4E0D-A772-F2662388770F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BAC1576F-C00C-4E0D-A772-F2662388770F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
