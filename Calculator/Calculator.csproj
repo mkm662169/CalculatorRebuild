@@ -5,14 +5,18 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\Average\Average.csproj" />
     <ProjectReference Include="..\Cubing\Cubing.csproj" />
+    <ProjectReference Include="..\Deviation\Deviation.csproj" />
     <ProjectReference Include="..\Differences\Differences.csproj" />
     <ProjectReference Include="..\Operations\Operations.csproj" />
     <ProjectReference Include="..\Quotient\Quotient.csproj" />
     <ProjectReference Include="..\SquareRoot\SquareRoot.csproj" />
     <ProjectReference Include="..\Square\Square.csproj" />
+    <ProjectReference Include="..\StatOps\StatOps.csproj" />
     <ProjectReference Include="..\Sum\Sum.csproj" />
     <ProjectReference Include="..\Times\Times.csproj" />
+    <ProjectReference Include="..\Variances\Variances.csproj" />
   </ItemGroup>
 
 </Project>
